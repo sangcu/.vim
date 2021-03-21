@@ -4,7 +4,7 @@ sudo apt install curl
 sudo apt install fd-find
 # Using Ubuntu
 curl -fsSL https://deb.nodesource.com/setup_15.x | sudo -E bash -
-sudo apt-get install -y nodejs
+# sudo apt-get install -y nodejs
 sudo apt install npm
 npm -g install js-beautify
 export FZF_DEFAULT_COMMAND="fdfind --type file"
