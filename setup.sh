@@ -1,3 +1,6 @@
+# Remove cdrom as source as the packages should download from internet
+sudo sed -i '/cdrom/d' /etc/apt/sources.list
+
 sudo apt install fd-find
 # Using Ubuntu
 curl -fsSL https://deb.nodesource.com/setup_15.x | sudo -E bash -
